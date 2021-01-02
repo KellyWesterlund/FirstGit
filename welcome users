@@ -1,0 +1,3 @@
+# Welcome new users
+Users name = Input()
+print(Welcome , Users name)

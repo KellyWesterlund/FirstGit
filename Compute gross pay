@@ -1,0 +1,12 @@
+# Compute gross pay
+hours = input('hours?')
+rate =  input('rate?')
+hours = int(hours)
+rate = int(rate)
+if hours > 40:
+    overtime = hours - 40
+    hours = 40
+    gross = overtime * (rate * 1.5) + (hours * rate)
+else:
+    gross = hours * rate
+print(gross)
